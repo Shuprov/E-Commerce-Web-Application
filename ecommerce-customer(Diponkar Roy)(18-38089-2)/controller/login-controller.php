@@ -1,13 +1,9 @@
 <?php
 require_once "models/db-config.php";
 
-
 if(isset($_POST["btn_login"])){
-	$username=$_POST["username"];
-    $password=$_POST["password"];
-			if(authenticateUser($username,$password))
+			if(authenticateUser($_POST["username"],$_POST["password"]))
 			{
-				setcookie("username",$username,time()+30000);
 				header("Location: dashboard.php");
 			}
 			else{
