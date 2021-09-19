@@ -14,7 +14,7 @@
 	
 		<fieldset>
 			
-			<center><legend><h1>Coustomer Registration</h1></legend></center>
+			<center><legend><h1>Customer Registration</h1></legend></center>
 			<center>
 			
 			
